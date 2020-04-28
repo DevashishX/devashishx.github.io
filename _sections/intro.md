@@ -8,4 +8,4 @@ order: 1
 ---
 
 ## **Hi ! I am Devashish, an Information Technology senior undergraduate student @ College of Engineering, Pune**
-## **My interests are Deep Learning, AWS, Violin and Oil Painting**
+## **My interests are Deep Learning, Cloud Computing, Finance and Oil Painting**

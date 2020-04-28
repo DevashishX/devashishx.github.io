@@ -11,8 +11,8 @@ order: 3
 ---
 
 
-* **Scientific Research Papers clustering using Sentence Embedding**
-* **Neural Machine Translation using Transformers**
+* **Clustering using Sentence Embedding**
+* **Neural Machine Translation**
 * **DNS Guard**
-* **Simple Stock Prediction using Regression**
-* **Devtext - A text editor in C language using NCURSES**
+* **Stock Price Prediction**
+* **Devtext text editor**
