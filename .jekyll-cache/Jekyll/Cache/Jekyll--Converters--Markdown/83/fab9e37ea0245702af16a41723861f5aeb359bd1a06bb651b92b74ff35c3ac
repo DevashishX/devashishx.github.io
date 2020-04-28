@@ -1,0 +1,29 @@
+I"û<h2 id="my-work-experience">My Work Experience</h2>
+<h3 id="please-go-here-to-know-about-my-work-experience-in-detail">Please <a href="/work-experience" title="Work Experience">go here</a> to know about my work experience in detail</h3>
+<hr />
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Company</th>
+      <th style="text-align: center">Level</th>
+      <th style="text-align: center">Duration</th>
+      <th style="text-align: center">Field</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">Mastercard</td>
+      <td style="text-align: center">Intern</td>
+      <td style="text-align: center">May 2019 - July 2019</td>
+      <td style="text-align: center">Databases and Cryptography</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Druva Inc</td>
+      <td style="text-align: center">Intern</td>
+      <td style="text-align: center">May 2018 - July 2018</td>
+      <td style="text-align: center">Cloud Infrastructure</td>
+    </tr>
+  </tbody>
+</table>
+:ET
