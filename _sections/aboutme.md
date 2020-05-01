@@ -17,5 +17,5 @@ order: 2
 **I have volunteered for [Mindspark](http://www.mind-spark.org/) - the annual technical festival of my college. Currently I am the Manager of Finance of COEP [Data science and Artificial Intelligence Club](https://www.coep.org.in/dsai/ "DSAI") - hobby group to encourage AI, Dl and ML developement amongst students.**   
 **I am interested in Deep Learning, Natural Language Processing, Automated Cloud Infrastructure Control, and clean code practices.**   
 **I love to paint landscapes using oil colors by using The Bob Rosss Technique. On the musical side, sometimes, I play Harmonium and Violin. I like to read Biographies, and fiction with deep underlying meaning.**   
-**You can find my resume [here]({{- site.resume_url -}} "Download Resume")**   
-**Feel free to send me an [Email](mailto:{{- site.email -}} "Send Email")**
+**You can find my resume [here]({{- site.resume_url -}} )**   
+**Feel free to send me an [Email](mailto:{{- site.email -}} )**
