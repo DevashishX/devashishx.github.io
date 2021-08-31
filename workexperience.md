@@ -10,11 +10,11 @@ permalink: "/work-experience"
 ### Full time Employments
 ---
 
-1. **Societe Generale (November 2020 - August 2021)**
-   I worked as a Software Engineer in Societe Generale's Open Source Program Office.
-   I worked on research, presentation and POC evaluation of open source alternatives to commercial/closed source products which would reduce the total cost of operations for the organization.
-   In parallel, I also worked on contributing to open source repositories and open sourcing internal repositories with due diligence so as to minimize the security, legal and operatinal risk to the organization. 
-   along with this, I worked on the developement of NLP project for email classification which is soon to be open sourced.
+1. **Societe Generale (November 2020 - August 2021)**    
+   I worked as a Software Engineer in Societe Generale's Open Source Program Office.    
+   I worked on research, presentation and POC evaluation of open source alternatives to commercial/closed source products which would reduce the total cost of operations for the organization.    
+   In parallel, I also worked on contributing to open source repositories and open sourcing internal repositories with due diligence so as to minimize the security, legal and operatinal risk to the organization.    
+   along with this, I worked on the developement of NLP project for email classification which is soon to be open sourced.    
 
 
 ### Internships
