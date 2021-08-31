@@ -31,7 +31,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Devashish Gaikwad
-subtitle: Curious Undergrad Cloud and Data Science Enthusiast
+subtitle: Cloud Architecture and Data Science Enthusiast
 description: >- # this means to ignore newlines until "baseurl:"
   This is the personal website of Devashish Gaikwad
   You can find My Resume, Projects and hobbies hosted on this website
