@@ -7,5 +7,5 @@ icon: fa-comment
 order: 1
 ---
 
-## **Hi ! I am Devashish, an Information Technology senior undergraduate student @ College of Engineering, Pune**
+## **Hi ! I am Devashish, a first year Software Systems Masters Student @ RWTH Aachen**
 ## **My interests are Deep Learning, Cloud Computing, Finance and Oil Painting**
