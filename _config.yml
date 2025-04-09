@@ -3,7 +3,7 @@
 title: Devashish Gaikwad
 description: Real Time Systems | RWTH Aachen | C++, Python, Linux
 
-baseurl: / #name of GitHub repository
+baseurl: "" #name of GitHub repository
 url: "devashish.de" #custom url to be used instead of GitHub repository
 email: ishay.gaikwad@gmail.com
 
