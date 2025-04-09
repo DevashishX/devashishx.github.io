@@ -13,9 +13,9 @@ permalink: /blog/:year/:title/
 paginate_path: /blog/page:num/
 
 # Social media links in footer
-linkedin: "https://www.linkedin.com/in/devashishgaikwad/"
+linkedin: "devashishgaikwad"
 # stackoverflow: "#"
-github: "https://github.com/DevashishX"
+github: "DevashishX"
 # researchgate: "#"
 # orcid: "#"
 # quora: "#"
