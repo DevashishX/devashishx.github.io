@@ -1,71 +1,72 @@
-# Developer's Note: This is a sample _config.yml file offered with
-# jekyll-theme-prologue for your convenience. To use it, move it to your
-# project's root directory. Please note that the following lines are
-# NECESSARY for Prologue to work correctly:
-#
-# theme: jekyll-theme-prologue
-# collections: [sections]
-#
-# They activate the theme and tell Jekyll to find your homepage content
-# in /_sections. Note where "sections" starts with an underscore
-# and where it doesn't. The social settings will make links to
-# Twitter, etc., but only if you give the URL.
-#
-# Also, be sure to customize url and baseurl for your site.
-#
-# ---------------------------------------------------------------
-#
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+### your site title here
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
 title: Devashish Gaikwad
-subtitle: Cloud Architecture and Data Science Enthusiast
-description: >- # this means to ignore newlines until "baseurl:"
-  This is the personal website of Devashish Gaikwad
-  You can find My Resume, Projects and hobbies hosted on this website
-  Feel free to contact me! 
-author: Devashish Gaikwad
+description: Real Time Systems | RWTH Aachen | C++, Python, Linux
+
+baseurl: / #name of GitHub repository
+url: "devashish.de" #custom url to be used instead of GitHub repository
 email: ishay.gaikwad@gmail.com
-avatar: assets/images/duck.png
-circular_avatar:  "true"
 
+# Pagination
+paginate: 4
+permalink: /blog/:year/:title/
+paginate_path: /blog/page:num/
 
+# Social media links in footer
+linkedin: "https://www.linkedin.com/in/devashishgaikwad/"
+# stackoverflow: "#"
+github: "https://github.com/DevashishX"
+# researchgate: "#"
+# orcid: "#"
+# quora: "#"
+# instagram: "#"
+# facebook: "#"
+# bluesky: "#"
 
-# You'll want to customize url and baseurl for your own site:
-# baseurl: "/jekyll-theme-prologue" # the subpath of your site, e.g. /blog
-baseurl: ""
-url: "" # the base hostname & protocol for your site
+# Markdown
+highlighter: rouge
+markdown: kramdown
 
-# Social settings
-# Make sure to include the full url including protocol, e.g. https://github.com/chrisbobbe
-twitter_url:
-facebook_url:
-googleplus_url:
-instagram_url:
-linkedin_url: https://www.linkedin.com/in/devashishgaikwad/
-github_url: https://github.com/DevashishX
-stackoverflow_url: https://stackoverflow.com/users/6546530/devx
-pinterest_url:
-slack_url:
-dribbble_url:
-resume_url: https://drive.google.com/file/d/1LFLPw7LB2eXCxd5iVIe0f5HmM4Slu4bq/view?usp=sharing
+# Tracker
+analytics:
 
+# optimization -> compress.html
+compress_html:
+  clippings: [html,div, p, ul, td, h1, h2, h3, h4,link, meta, footer, nav, img, header, hr, br, head, style, li, ul, ol, time, main, script, title]
+  comments: ["<!-- ", " -->"]
+  endings: [all]
+  ignore:
+    envs: [local]
+  blanklines: false
+  profile: false
+  startings: []
 
-# Google Analytics Tracking ID goes here:
-google_analytics: UA-164707429-1
+#collection
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+    order:
+      - shortProject.md
+      - longerProjectTitle.md
+      - redirect.md
+      - project4.md
+      - project5.md
+      - project6.md
 
-# The following settings are NECESSARY for the Prologue theme to run:
-theme: jekyll-theme-prologue
-collections: [sections]
+sass:
+  sass_dir: /assets/css/_sass
+  style: compressed
+
+include:
+  - _pages
+
+exclude:
+  - README.md
+  - LICENSE.md
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-email-protect
+  - jekyll-target-blank

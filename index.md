@@ -1,9 +1,20 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: home
-title: Home
-icon: fa-home
-order: 1
+layout: about
+permalink: /
+profile:
+  align: right
+  image: devashish_square.jpg
+published: true
 ---
+
+***
+
+# About Me
+
+Hi, I am Dev - a Master's student at RWTH Aachen, I am currently writing my thesis in Process Mining on logic driven and bias-free Anomaly Detection. I have worked for 2 years at Bosch in Abstatt and Stuttgart on measurement and optimization of (shared) memory occupied by critical real time software systems.
+
+I am currently looking for full time jobs in Germany, so let's connect ! 
+
+**[Email me!](mailto:ishay.gaikwad@gmail.com)**
+
+***
