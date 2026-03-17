@@ -1,0 +1,58 @@
+{% assign current_lang = include.lang | default: page.lang | default: 'en' %}
+{% if current_lang == 'de' %}
+{% assign experience_heading = 'Erfahrungen' %}
+{% assign present_label = 'Heute' %}
+{% else %}
+{% assign experience_heading = 'Experience' %}
+{% assign present_label = 'Present' %}
+{% endif %}
+
+<div class="ExperienceContainer">
+    <div class="experienceRows">
+        {% assign sorted_experiences = site.experiences | sort: 'start_date' | reverse %}
+        {% for experience in sorted_experiences %}
+        {% if current_lang == 'de' %}
+        {% assign exp_title = experience.title_de | default: experience.title %}
+        {% assign exp_org = experience.organization_de | default: experience.organization %}
+        {% assign exp_location = experience.location_de | default: experience.location %}
+        {% assign exp_type = experience.type_de | default: experience.type %}
+        {% assign exp_summary = experience.summary_de | default: experience.summary %}
+        {% assign exp_content = experience.content_de | default: experience.content %}
+        {% else %}
+        {% assign exp_title = experience.title %}
+        {% assign exp_org = experience.organization %}
+        {% assign exp_location = experience.location %}
+        {% assign exp_type = experience.type %}
+        {% assign exp_summary = experience.summary %}
+        {% assign exp_content = experience.content %}
+        {% endif %}
+
+        <article class="experienceItem">
+            <div class="experiencePill">{{ exp_title }}</div>
+
+            <div class="experienceMeta">
+                <strong>{{ exp_org }}</strong>
+                {% if exp_type and exp_type != '' %}
+                <span class="experienceMetaDivider">|</span>
+                <span>{{ exp_type }}</span>
+                {% endif %}
+                {% if exp_location and exp_location != '' %}
+                <span class="experienceMetaDivider">|</span>
+                <span>{{ exp_location }}</span>
+                {% endif %}
+            </div>
+
+            <p class="experienceDates">
+                {{ experience.start_date | date: '%b %Y' }} - {% if experience.end_date %}{{ experience.end_date | date:
+                '%b %Y' }}{% else %}{{ present_label }}{% endif %}
+            </p>
+
+            {% if exp_summary and exp_summary != '' %}
+            <p class="experienceSummary">{{ exp_summary }}</p>
+            {% endif %}
+
+            <div class="experienceContent">{{ exp_content | markdownify }}</div>
+        </article>
+        {% endfor %}
+    </div>
+</div>

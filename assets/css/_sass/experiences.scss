@@ -1,0 +1,72 @@
+/* Experience Page */
+.ExperienceContainer {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 1rem 2rem 2rem;
+}
+
+.experienceRows {
+    display: flex;
+    flex-direction: column;
+    gap: 1.1rem;
+}
+
+.experienceItem {
+    padding: 1rem 1.1rem;
+    border: 1px solid #dfe6ee;
+    border-radius: 14px;
+    background: #fbfdff;
+}
+
+.experiencePill {
+    display: inline-block;
+    padding: 0.2rem 0.8rem;
+    border-radius: 999px;
+    background: rgba($brand-color, 0.14);
+    color: $brand-color;
+    font-weight: 700;
+}
+
+.experienceMeta {
+    margin-top: 0.55rem;
+}
+
+.experienceMetaDivider {
+    color: #90a0b3;
+    margin: 0 0.35rem;
+}
+
+.experienceDates {
+    margin: 0.15rem 0 0.45rem !important;
+    color: #4f5f72;
+    font-size: 0.95rem;
+}
+
+.experienceSummary {
+    margin: 0.25rem 0 0.5rem !important;
+}
+
+.experienceContent> :first-child {
+    margin-top: 0;
+}
+
+.experienceContent> :last-child {
+    margin-bottom: 0;
+}
+
+@include media-query($on-phone) {
+    .ExperienceContainer {
+        padding: 0.8rem 0.35rem 1.2rem;
+    }
+
+    .experienceItem {
+        padding: 0.8rem 0.75rem;
+    }
+
+    .experienceMeta,
+    .experienceDates,
+    .experienceSummary,
+    .experienceContent {
+        font-size: 0.94rem;
+    }
+}

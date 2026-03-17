@@ -21,6 +21,33 @@ body {
   // }
 }
 
+@include media-query($on-phone) {
+  body {
+    font-size: 18px;
+    padding: 1rem 0.7rem;
+  }
+
+  .post-description {
+    display: none;
+  }
+
+  .post-headline {
+    margin-bottom: 0.1em;
+  }
+
+  h1,
+  h2 {
+    line-height: 1.45;
+  }
+
+  h3,
+  h4,
+  h5,
+  h6 {
+    line-height: 1.35;
+  }
+}
+
 h1,
 h2,
 h3,

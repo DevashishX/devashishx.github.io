@@ -53,6 +53,9 @@ collections:
       - project4.md
       - project5.md
       - project6.md
+  experiences:
+    output: true
+    permalink: /experiences/:name/
 
 sass:
   sass_dir: /assets/css/_sass

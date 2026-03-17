@@ -4,47 +4,45 @@ footer {
     margin-top: 2em;
 }
 
-/* Header navigation links */
+/* Header/navigation links */
+.mobile-nav-wrap {
+    margin-bottom: 0.6em;
+}
+
+.mobile-nav-toggle {
+    display: none;
+}
+
 .links {
-    display: flex;
-    align-items: center;
-    gap: 0.75em;
+    display: block;
 }
 
-.nav-primary {
-    display: flex;
-    align-items: center;
-    gap: 1em;
-    white-space: nowrap;
-}
-
-/* Footer navigation links */
 .links a {
     margin-right: 1em;
 }
 
 .language-switch {
-    margin-left: auto;
     display: inline-flex;
     align-items: center;
     gap: 0.35em;
     white-space: nowrap;
-    padding: 0.2em;
+    margin-left: 0.25em;
+    padding: 0.15em;
     border: 1px solid #d6dde4;
     border-radius: 999px;
 }
 
 .language-switch i {
     color: $brand-color;
-    margin: 0 0.25em 0 0.45em;
+    margin: 0 0.2em 0 0.4em;
 }
 
 .language-switch .lang-button {
     margin-right: 0;
-    padding: 0.2em 0.65em;
+    padding: 0.14em 0.55em;
     border-radius: 999px;
-    text-decoration: none;
     color: $text-color;
+    text-decoration: none;
     transition: background-color 0.2s ease, color 0.2s ease;
 }
 
@@ -60,17 +58,64 @@ footer {
 }
 
 @include media-query($on-phone) {
-    .links {
-        gap: 0.4em;
+    .mobile-nav-toggle {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.45em;
+        margin-bottom: 0.5em;
+        padding: 0.4em 0.7em;
+        border: 1px solid #d6dde4;
+        border-radius: 10px;
+        background: #fff;
+        color: $text-color;
+        font-size: 0.95em;
+        cursor: pointer;
     }
 
-    .nav-primary {
-        gap: 0.7em;
+    .nav-menu {
+        display: none;
+    }
+
+    .nav-menu.is-open {
+        display: grid;
+    }
+
+    .links.scroll {
+        white-space: normal;
+        overflow-x: visible;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 0.2em 0.35em;
+        align-items: center;
+    }
+
+    .links a {
+        margin-right: 0;
+        text-align: center;
+        font-size: 0.9em;
+        line-height: 1.2;
+        padding: 0.2em 0.15em;
+        min-width: 0;
+    }
+
+    .language-switch {
+        grid-column: 1 / -1;
+        justify-self: stretch;
+        justify-content: center;
+        margin-left: 0;
+        margin-top: 0;
+        padding: 0.1em;
+        min-width: 0;
+    }
+
+    .language-switch i {
+        display: none;
     }
 
     .language-switch .lang-button {
-        padding: 0.2em 0.5em;
-        font-size: 0.9em;
+        flex: 1 1 auto;
+        text-align: center;
+        padding: 0.12em 0.35em;
+        font-size: 0.88em;
     }
 }
 

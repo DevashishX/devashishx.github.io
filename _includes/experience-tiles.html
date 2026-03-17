@@ -1,0 +1,30 @@
+{% assign current_lang = include.lang | default: page.lang | default: 'en' %}
+{% assign sorted_experiences = site.experiences | sort: 'start_date' | reverse %}
+
+<div class="homeTileGrid homeTileGridExperience">
+    {% for experience in sorted_experiences %}
+    {% if current_lang == 'de' %}
+    {% assign tile_title = experience.title_de | default: experience.title %}
+    {% assign tile_image = experience.tile_image_de | default: experience.tile_image %}
+    {% else %}
+    {% assign tile_title = experience.title %}
+    {% assign tile_image = experience.tile_image %}
+    {% endif %}
+
+    {% assign tile_style = '' %}
+    {% if tile_image and tile_image != '' %}
+    {% if tile_image contains '://' %}
+    {% assign tile_style = 'background-image: linear-gradient(rgba(8,18,30,0.34), rgba(8,18,30,0.34)), url(' | append:
+    tile_image | append: '); background-size: cover; background-position: center;' %}
+    {% else %}
+    {% assign tile_style = 'background-image: linear-gradient(rgba(8,18,30,0.34), rgba(8,18,30,0.34)), url(' | append:
+    tile_image | relative_url | append: '); background-size: cover; background-position: center;' %}
+    {% endif %}
+    {% endif %}
+
+    <a class="homeTile homeTileExperience{% if tile_style != '' %} has-image{% endif %}"
+        href="{{ experience.url | relative_url }}" {% if tile_style !='' %} style="{{ tile_style }}" {% endif %}>
+        <span>{{ tile_title }}</span>
+    </a>
+    {% endfor %}
+</div>

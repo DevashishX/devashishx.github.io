@@ -1,0 +1,36 @@
+{% assign current_lang = include.lang | default: page.lang | default: 'en' %}
+
+<div class="homeTileGrid">
+    {% for project in site.projects %}
+    {% if current_lang == 'de' %}
+    {% assign tile_title = project.title_de | default: project.title %}
+    {% assign tile_image = project.tile_image_de | default: project.tile_image %}
+    {% else %}
+    {% assign tile_title = project.title %}
+    {% assign tile_image = project.tile_image %}
+    {% endif %}
+
+    {% assign tile_style = '' %}
+    {% if tile_image and tile_image != '' %}
+    {% if tile_image contains '://' %}
+    {% assign tile_style = 'background-image: linear-gradient(rgba(8,18,30,0.34), rgba(8,18,30,0.34)), url(' | append:
+    tile_image | append: '); background-size: cover; background-position: center;' %}
+    {% else %}
+    {% assign tile_style = 'background-image: linear-gradient(rgba(8,18,30,0.34), rgba(8,18,30,0.34)), url(' | append:
+    tile_image | relative_url | append: '); background-size: cover; background-position: center;' %}
+    {% endif %}
+    {% endif %}
+
+    {% if project.redirect %}
+    <a class="homeTile{% if tile_style != '' %} has-image{% endif %}" href="{{ project.redirect }}" target="_blank" {%
+        if tile_style !='' %} style="{{ tile_style }}" {% endif %}>
+        <span>{{ tile_title }}</span>
+    </a>
+    {% else %}
+    <a class="homeTile{% if tile_style != '' %} has-image{% endif %}" href="{{ project.url | relative_url }}" {% if
+        tile_style !='' %} style="{{ tile_style }}" {% endif %}>
+        <span>{{ tile_title }}</span>
+    </a>
+    {% endif %}
+    {% endfor %}
+</div>

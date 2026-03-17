@@ -4,6 +4,7 @@ title: Project 4
 description: another project
 main_page_display_description: Key highlights of Project 4 to show in the list row next to its tile.
 main_page_display_description_de: Wichtige Punkte von Projekt 4 fuer die Listenansicht neben der Projektkachel.
+tile_image: /assets/images/devashish_square.jpg
 ---
 
 Example modified from [here](http://www.unexpected-vortices.com/sw/rippledoc/quick-markdown-example.html){:target="_blank"}.

@@ -12,19 +12,33 @@
         {% assign project_info = project.main_page_display_description_de | default:
         project.main_page_display_description | default: project.description_de | default: project.description %}
         {% assign project_tile_description = project.description_de | default: project.description %}
+        {% assign project_tile_image = project.tile_image_de | default: project.tile_image %}
         {% else %}
         {% assign project_info = project.main_page_display_description | default: project.description %}
         {% assign project_tile_description = project.description %}
+        {% assign project_tile_image = project.tile_image %}
         {% endif %}
 
         {% if project_info == nil or project_info == "" %}
         {% assign project_info = project.excerpt | strip_html | strip_newlines %}
         {% endif %}
 
+        {% assign tile_style = '' %}
+        {% if project_tile_image and project_tile_image != '' %}
+        {% if project_tile_image contains '://' %}
+        {% assign tile_style = 'background-image: linear-gradient(rgba(8,18,30,0.35), rgba(8,18,30,0.35)), url(' |
+        append: project_tile_image | append: '); background-size: cover; background-position: center;' %}
+        {% else %}
+        {% assign tile_style = 'background-image: linear-gradient(rgba(8,18,30,0.35), rgba(8,18,30,0.35)), url(' |
+        append: project_tile_image | relative_url | append: '); background-size: cover; background-position: center;' %}
+        {% endif %}
+        {% endif %}
+
         <div class="projectRow">
             <div class="projectRowTile">
                 {% if project.redirect %}
-                <div class="projectTile">
+                <div class="projectTile{% if tile_style != '' %} has-image{% endif %}" {% if tile_style !='' %}
+                    style="{{ tile_style }}" {% endif %}>
                     <a href="{{ project.redirect }}" target="_blank">
                         <span>
                             <h2>{{ project.title }}</h2>
@@ -34,7 +48,8 @@
                     </a>
                 </div>
                 {% else %}
-                <div class="projectTile">
+                <div class="projectTile{% if tile_style != '' %} has-image{% endif %}" {% if tile_style !='' %}
+                    style="{{ tile_style }}" {% endif %}>
                     <a href="{{ project.url | relative_url }}">
                         <span>
                             <h2>{{ project.title }}</h2>

@@ -34,6 +34,7 @@
 
 .projectRowInfo p {
   margin: 0;
+  line-height: 1.5;
 }
 
 .projectRowCta {
@@ -79,6 +80,12 @@
   color: $projectbox-text;
 }
 
+.projectTile.has-image a span h2,
+.projectTile.has-image:hover a span p {
+  color: #fff;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.35);
+}
+
 .projectTile:hover a span h2 {
   display: none;
 }
@@ -94,35 +101,121 @@
   color: $projectbox-text;
 }
 
+.homeTileGrid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 0.75rem 0 1.4rem;
+}
+
+.homeTile {
+  border-radius: 16px;
+  background: $projectbox;
+  min-height: 230px;
+  aspect-ratio: 1 / 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 1rem;
+  color: $projectbox-text;
+  font-weight: 700;
+  font-size: 1.2rem;
+  line-height: 1.28;
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+
+.homeTile span {
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.homeTile:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(12, 34, 58, 0.12);
+}
+
+.homeTile.has-image {
+  color: #fff;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.35);
+}
+
+.homeTileExperience {
+  background: #cbe7f5;
+}
+
 @include media-query($on-phone) {
   @media screen and (max-width: $on-phone) {
 
+    .homeTileGrid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 0.55rem;
+    }
+
+    .homeTile {
+      min-height: 126px;
+      font-size: 0.92rem;
+      padding: 0.55rem;
+      border-radius: 12px;
+    }
+
+    .homeTile span {
+      -webkit-line-clamp: 3;
+    }
+
+    .ProjectContainer {
+      padding: 1rem 0.35rem;
+    }
+
+    .projectRows {
+      gap: 0.9rem;
+    }
+
     .projectRow {
       grid-template-columns: 1fr;
-      gap: 0.75rem;
+      gap: 0.55rem;
+      padding: 0.75rem;
+      border: 1px solid #dde4eb;
+      border-radius: 14px;
+      background: #fafcfe;
     }
 
     .projectRowTile {
       width: 100%;
     }
 
-    .projectTile {
-      height: 80px;
+    .projectRow .projectTile {
+      height: 88px;
       width: 100%;
     }
 
+    .projectRowInfo h2 {
+      font-size: 1.08rem;
+      line-height: 1.35;
+    }
+
+    .projectRowInfo p {
+      font-size: 0.95rem;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    .projectRowCta {
+      margin-top: 0.5rem !important;
+    }
+
+    .projectRowCta a {
+      font-size: 0.92rem;
+    }
+
     .projectTile a span h2 {
-      font-size: 1.2rem;
+      font-size: 1.1rem;
+      padding: 0.65rem;
     }
-
-    .projectTile:hover a span p {
-      display: none;
-    }
-
-    .projectTile:hover a span h2 {
-      display: flex;
-    }
-
 
   }
 }
@@ -130,32 +223,66 @@
 @include media-query($on-palm) {
   @media screen and (max-width: $on-palm) {
 
+    .homeTileGrid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 0.85rem;
+    }
+
+    .homeTile {
+      min-height: 158px;
+      font-size: 1rem;
+      padding: 0.65rem;
+    }
+
+    .ProjectContainer {
+      padding: 1.35rem 0.6rem;
+    }
+
     .projectRow {
       grid-template-columns: 1fr;
-      gap: 0.75rem;
+      gap: 0.6rem;
+      padding: 0.9rem;
+      border: 1px solid #e3e8ef;
+      border-radius: 14px;
+      background: #fcfdff;
     }
 
     .projectRowTile {
       width: 100%;
     }
 
-    .projectTile {
-      height: 100px;
+    .projectRow .projectTile {
+      height: 95px;
       width: 100%;
     }
 
+    .projectRowInfo h2 {
+      font-size: 1.12rem;
+      line-height: 1.4;
+    }
+
+    .projectRowInfo p {
+      display: -webkit-box;
+      -webkit-line-clamp: 4;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
     .projectTile a span h2 {
-      font-size: 1.3rem;
+      font-size: 1.2rem;
+      padding: 0.75rem;
     }
 
-    .projectTile:hover a span p {
-      display: none;
-    }
+  }
+}
 
-    .projectTile:hover a span h2 {
-      display: flex;
-    }
+@media screen and (max-width: 360px) {
+  .homeTileGrid {
+    grid-template-columns: 1fr;
+  }
 
+  .homeTile {
+    min-height: 122px;
   }
 }
 

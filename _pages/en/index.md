@@ -10,15 +10,23 @@ published: true
 
 # About Me
 
-Hi, I am Dev - a Master's student at RWTH Aachen, I am currently writing my thesis in Process Mining on logic driven and bias-free Anomaly Detection. I have worked for 2 years at Bosch in Abstatt and Stuttgart on measurement and optimization of (shared) memory occupied by critical real time software systems.
+Hi, I am Dev, an ML/AI engineer in Aachen focused on LLM systems, data science, and MLOps.
 
-I am currently looking for full time jobs in Germany, so let's connect!
+I graduated in 10/2025 from RWTH Aachen in MSc Software Systems Engineering (MSc Softwaretechnik).
 
-**[Email me!](mailto:ishay.gaikwad@gmail.com)**
+My work spans process mining, anomaly detection, and LLM automation. I improved anomaly detection by up to 47% with TensorFlow and built production workflows with LangChain, MCP, Ollama, Docker, and SQL.
+
+I previously worked at Robert Bosch and Societe Generale, delivering end-to-end software from requirements to production. I am open to full-time ML/AI software engineering and MLOps roles in Germany.
+
+**[Email me!](mailto:devashish.gaikwad@outlook.com)**
+
+# Experience
+
+{% include experience-tiles.html lang='en' %}
 
 # Projects
 
-{% include project-rows.html lang='en' %}
+{% include project-tiles.html lang='en' %}
 
 # Recent Posts
 
