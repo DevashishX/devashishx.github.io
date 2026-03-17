@@ -13,11 +13,31 @@
 
 
 <div class="links scroll">
-        <a href="/en/">Home</a>
-        <a href="/en/projects/">Projects</a>
-        <a href="/blog/">Blog</a>
-        <a href="/en/archive/">Archive</a>
+        <div class="nav-primary">
+                <a href="/en/">Home</a>
+                <a href="/en/projects/">Projects</a>
+                <a href="/blog/">Blog</a>
+                <a href="/en/archive/">Archive</a>
+        </div>
+
+        <div class="language-switch" aria-label="Language switcher">
+                <i class="fas fa-language" aria-hidden="true"></i>
+                <a href="/en/" class="lang-button active"
+                        onclick="setPreferredLanguage('en')">EN</a>
+                <a href="/de/" class="lang-button"
+                        onclick="setPreferredLanguage('de')">DE</a>
+        </div>
 </div>
+
+<script>
+        function setPreferredLanguage(lang) {
+                try {
+                        localStorage.setItem('preferredLang', lang);
+                } catch (e) {
+                        // Ignore storage errors and continue navigation.
+                }
+        }
+</script>
 
     <!-- Begin Jekyll SEO tag v2.8.0 -->
 <title>Devashish Gaikwad | Real Time Systems RWTH Aachen C++, Python, Linux</title>
@@ -76,8 +96,35 @@
 
 <p>If you are not redirected automatically, choose your language above.</p>
 
-<meta http-equiv="refresh" content="0; url=/en/">
+<script>
+	(function () {
+		var selectedLang = 'en';
 
+		try {
+			var savedLang = localStorage.getItem('preferredLang');
+			if (savedLang === 'en' || savedLang === 'de') {
+				selectedLang = savedLang;
+			} else {
+				var browserLang = (navigator.languages && navigator.languages[0]) || navigator.language || 'en';
+				if (browserLang.toLowerCase().indexOf('de') === 0) {
+					selectedLang = 'de';
+				}
+				localStorage.setItem('preferredLang', selectedLang);
+			}
+		} catch (e) {
+			var fallbackBrowserLang = (navigator.languages && navigator.languages[0]) || navigator.language || 'en';
+			if (fallbackBrowserLang.toLowerCase().indexOf('de') === 0) {
+				selectedLang = 'de';
+			}
+		}
+
+		window.location.replace('/' + selectedLang + '/');
+	})();
+</script>
+
+<noscript>
+	<meta http-equiv="refresh" content="0; url=/en/">
+</noscript>
 
         </article>
     </main>

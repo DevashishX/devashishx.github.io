@@ -18,8 +18,28 @@
 {% endif %}
 
 <div class="links scroll">
-        <a href="{{ home_url | relative_url }}">{{ home_label }}</a>
-        <a href="{{ projects_url | relative_url }}">{{ projects_label }}</a>
-        <a href="{{ '/blog/' | relative_url }}">{{ blog_label }}</a>
-        <a href="{{ archive_url | relative_url }}">{{ archive_label }}</a>
+        <div class="nav-primary">
+                <a href="{{ home_url | relative_url }}">{{ home_label }}</a>
+                <a href="{{ projects_url | relative_url }}">{{ projects_label }}</a>
+                <a href="{{ '/blog/' | relative_url }}">{{ blog_label }}</a>
+                <a href="{{ archive_url | relative_url }}">{{ archive_label }}</a>
+        </div>
+
+        <div class="language-switch" aria-label="Language switcher">
+                <i class="fas fa-language" aria-hidden="true"></i>
+                <a href="{{ '/en/' | relative_url }}" class="lang-button{% if current_lang == 'en' %} active{% endif %}"
+                        onclick="setPreferredLanguage('en')">EN</a>
+                <a href="{{ '/de/' | relative_url }}" class="lang-button{% if current_lang == 'de' %} active{% endif %}"
+                        onclick="setPreferredLanguage('de')">DE</a>
+        </div>
 </div>
+
+<script>
+        function setPreferredLanguage(lang) {
+                try {
+                        localStorage.setItem('preferredLang', lang);
+                } catch (e) {
+                        // Ignore storage errors and continue navigation.
+                }
+        }
+</script>
