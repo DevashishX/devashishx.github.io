@@ -2,6 +2,7 @@
 layout: post
 title: Short Project
 description: description of the short project which is long enough
+main_page_display_description: A compact overview of this project for list display on the home and projects pages.
 ---
 Example modified from [here](http://www.unexpected-vortices.com/sw/rippledoc/quick-markdown-example.html){:target="_blank"}.
 
@@ -97,14 +98,14 @@ Here's a footnote [^1].
 
 Tables can look like this:
 
-| Header 1 | Header 2                   | Header 3 |
-|:--------:|:--------------------------:|:--------:|
-| data1a   | Data is longer than header | 1        |
-| d1b      | add a cell                 |          |
-| lorem    | ipsum                      | 3        |
-|          | empty outside cells        |          |
-| skip     |                            | 5        |
-| six      | Morbi purus                | 6        |
+| Header 1 |          Header 2          | Header 3 |
+| :------: | :------------------------: | :------: |
+|  data1a  | Data is longer than header |    1     |
+|   d1b    |         add a cell         |          |
+|  lorem   |           ipsum            |    3     |
+|          |    empty outside cells     |          |
+|   skip   |                            |    5     |
+|   six    |        Morbi purus         |    6     |
 
 
 A horizontal rule follows.

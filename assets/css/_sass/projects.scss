@@ -1,8 +1,43 @@
 /* Project Page */
 .ProjectContainer {
-  max-width: 800px;
+  max-width: 980px;
   margin: 0 auto;
   padding: 2rem;
+}
+
+.projectRows {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.projectRow {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.projectRowTile {
+  width: 220px;
+}
+
+.projectRow .projectTile {
+  height: 200px;
+  width: 200px;
+}
+
+.projectRowInfo h2 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.projectRowInfo p {
+  margin: 0;
+}
+
+.projectRowCta {
+  margin-top: 0.75rem !important;
 }
 
 .gallery {
@@ -60,10 +95,20 @@
 }
 
 @include media-query($on-phone) {
-  @media screen and (max-width: $on-phone){
+  @media screen and (max-width: $on-phone) {
+
+    .projectRow {
+      grid-template-columns: 1fr;
+      gap: 0.75rem;
+    }
+
+    .projectRowTile {
+      width: 100%;
+    }
 
     .projectTile {
       height: 80px;
+      width: 100%;
     }
 
     .projectTile a span h2 {
@@ -83,10 +128,20 @@
 }
 
 @include media-query($on-palm) {
-  @media screen and (max-width: $on-palm){
+  @media screen and (max-width: $on-palm) {
+
+    .projectRow {
+      grid-template-columns: 1fr;
+      gap: 0.75rem;
+    }
+
+    .projectRowTile {
+      width: 100%;
+    }
 
     .projectTile {
       height: 100px;
+      width: 100%;
     }
 
     .projectTile a span h2 {

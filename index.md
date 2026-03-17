@@ -17,4 +17,19 @@ I am currently looking for full time jobs in Germany, so let's connect !
 
 **[Email me!](mailto:ishay.gaikwad@gmail.com)**
 
+
+# Projects
+
+{% include project-rows.html %}
+
+# Recent Posts
+
+<div class="article-list">
+  {% for post in site.posts limit:5 %}
+    <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+  {% endfor %}
+</div>
+
+<p><a href="{{ '/blog/' | relative_url }}">View all posts</a></p>
+
 ***
