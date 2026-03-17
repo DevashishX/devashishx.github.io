@@ -3,6 +3,7 @@ layout: post
 title: Project 5
 description: another project
 main_page_display_description: Key highlights of Project 5 to show in the list row next to its tile.
+main_page_display_description_de: Wichtige Punkte von Projekt 5 fuer die Listenansicht neben der Projektkachel.
 ---
 
 Example modified from [here](http://www.unexpected-vortices.com/sw/rippledoc/quick-markdown-example.html){:target="_blank"}.

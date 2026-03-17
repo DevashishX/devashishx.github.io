@@ -1,6 +1,25 @@
+{% assign current_lang = page.lang | default: 'en' %}
+{% if current_lang == 'de' %}
+        {% assign home_label = 'Startseite' %}
+        {% assign projects_label = 'Projekte' %}
+        {% assign blog_label = 'Blog' %}
+        {% assign archive_label = 'Archiv' %}
+        {% assign home_url = '/de/' %}
+        {% assign projects_url = '/de/projects/' %}
+        {% assign archive_url = '/de/archive/' %}
+{% else %}
+        {% assign home_label = 'Home' %}
+        {% assign projects_label = 'Projects' %}
+        {% assign blog_label = 'Blog' %}
+        {% assign archive_label = 'Archive' %}
+        {% assign home_url = '/en/' %}
+        {% assign projects_url = '/en/projects/' %}
+        {% assign archive_url = '/en/archive/' %}
+{% endif %}
+
 <div class="links scroll">
-        <a href="{{site.baseurl}}/">Home</a>
-        <a href="{{site.baseurl}}/projects/">Projects</a>
-        <a href="{{site.baseurl}}/blog/">Blog</a>
-        <a href="{{site.baseurl}}/archive/">Archive</a>
+                                <a href="{{ home_url | relative_url }}">{{ home_label }}</a>
+                                <a href="{{ projects_url | relative_url }}">{{ projects_label }}</a>
+                                <a href="{{ '/blog/' | relative_url }}">{{ blog_label }}</a>
+                                <a href="{{ archive_url | relative_url }}">{{ archive_label }}</a>
 </div>

@@ -3,6 +3,7 @@ layout: post
 title: Short Project
 description: description of the short project which is long enough
 main_page_display_description: A compact overview of this project for list display on the home and projects pages.
+main_page_display_description_de: Eine kompakte Projektbeschreibung fuer die Listenansicht auf den deutschen Seiten.
 ---
 Example modified from [here](http://www.unexpected-vortices.com/sw/rippledoc/quick-markdown-example.html){:target="_blank"}.
 

@@ -1,35 +1,16 @@
 ---
-layout: about
+layout: default
 permalink: /
-profile:
-  align: right
-  image: devashish_square.jpg
+lang: en
 published: true
 ---
 
 
+# Select Language
 
-# About Me
+- [English]({{ '/en/' | relative_url }})
+- [Deutsch]({{ '/de/' | relative_url }})
 
-Hi, I am Dev - a Master's student at RWTH Aachen, I am currently writing my thesis in Process Mining on logic driven and bias-free Anomaly Detection. I have worked for 2 years at Bosch in Abstatt and Stuttgart on measurement and optimization of (shared) memory occupied by critical real time software systems.
+If you are not redirected automatically, choose your language above.
 
-I am currently looking for full time jobs in Germany, so let's connect ! 
-
-**[Email me!](mailto:ishay.gaikwad@gmail.com)**
-
-
-# Projects
-
-{% include project-rows.html %}
-
-# Recent Posts
-
-<div class="article-list">
-  {% for post in site.posts limit:5 %}
-    <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
-  {% endfor %}
-</div>
-
-<p><a href="{{ '/blog/' | relative_url }}">View all posts</a></p>
-
-***
+<meta http-equiv="refresh" content="0; url={{ '/en/' | relative_url }}">

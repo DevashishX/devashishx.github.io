@@ -3,6 +3,7 @@ layout: post
 title: A longer Project Title
 description: short project description
 main_page_display_description: A concise summary that appears beside the project tile in the project list layout.
+main_page_display_description_de: Eine kurze Zusammenfassung, die in der Projektliste neben der Kachel angezeigt wird.
 ---
 
 Example modified from [here](http://www.unexpected-vortices.com/sw/rippledoc/quick-markdown-example.html){:target="_blank"}.

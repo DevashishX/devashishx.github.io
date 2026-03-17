@@ -1,7 +1,21 @@
 <div class="ProjectContainer">
+    {% assign current_lang = include.lang | default: page.lang | default: 'en' %}
+    {% if current_lang == 'de' %}
+    {% assign read_more_label = 'Mehr erfahren' %}
+    {% else %}
+    {% assign read_more_label = 'Read more' %}
+    {% endif %}
+
     <div class="projectRows">
         {% for project in site.projects %}
+        {% if current_lang == 'de' %}
+        {% assign project_info = project.main_page_display_description_de | default: project.main_page_display_description | default: project.description_de | default: project.description %}
+        {% assign project_tile_description = project.description_de | default: project.description %}
+        {% else %}
         {% assign project_info = project.main_page_display_description | default: project.description %}
+        {% assign project_tile_description = project.description %}
+        {% endif %}
+
         {% if project_info == nil or project_info == "" %}
         {% assign project_info = project.excerpt | strip_html | strip_newlines %}
         {% endif %}
@@ -14,7 +28,7 @@
                         <span>
                             <h2>{{ project.title }}</h2>
                             <br />
-                            <p>{{ project.description }}</p>
+                            <p>{{ project_tile_description }}</p>
                         </span>
                     </a>
                 </div>
@@ -24,7 +38,7 @@
                         <span>
                             <h2>{{ project.title }}</h2>
                             <br />
-                            <p>{{ project.description }}</p>
+                            <p>{{ project_tile_description }}</p>
                         </span>
                     </a>
                 </div>
@@ -35,7 +49,7 @@
                 <h2>{{ project.title }}</h2>
                 <p>{{ project_info | strip_html | truncatewords: 45 }}</p>
                 {% unless project.redirect %}
-                <p class="projectRowCta"><a href="{{ project.url | relative_url }}">Read more</a></p>
+                <p class="projectRowCta"><a href="{{ project.url | relative_url }}">{{ read_more_label }}</a></p>
                 {% endunless %}
             </div>
         </div>
