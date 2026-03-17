@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">FixConnect</title>
+  <desc id="desc">Project tile image for FixConnect.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#4c1d95"/>
+      <stop offset="100%" stop-color="#1e3a8a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <g fill="#ffffff" opacity="0.17">
+    <circle cx="980" cy="140" r="120"/>
+    <rect x="860" y="250" width="280" height="280" rx="36"/>
+  </g>
+  <text x="90" y="350" fill="#f5f3ff" font-size="112" font-family="Segoe UI, Arial, sans-serif" font-weight="700">FixConnect</text>
+  <text x="90" y="420" fill="#c4b5fd" font-size="38" font-family="Segoe UI, Arial, sans-serif">FIX Protocol UI and Session Prototyping</text>
+</svg>

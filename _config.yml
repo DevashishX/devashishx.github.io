@@ -47,12 +47,16 @@ collections:
     output: true
     permalink: /projects/:name/
     order:
-      - shortProject.md
-      - longerProjectTitle.md
-      - redirect.md
-      - project4.md
-      - project5.md
-      - project6.md
+      - ltncoder.md
+      - abstract-clustering.md
+      - mcp-factory-automation.md
+      - project-nmt.md
+      - python-host-ids.md
+      - devtext.md
+      - genki-karten.md
+      - ocelation.md
+      - dnsguard.md
+      - fixconnect.md
   experiences:
     output: true
     permalink: /experiences/:name/

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Ocelation</title>
+  <desc id="desc">Project tile image for Ocelation.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0c4a6e"/>
+      <stop offset="100%" stop-color="#164e63"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <g fill="#ffffff" opacity="0.18">
+    <circle cx="920" cy="150" r="110"/>
+    <circle cx="1070" cy="350" r="150"/>
+    <circle cx="970" cy="520" r="90"/>
+  </g>
+  <text x="90" y="350" fill="#ecfeff" font-size="110" font-family="Segoe UI, Arial, sans-serif" font-weight="700">Ocelation</text>
+  <text x="90" y="420" fill="#bae6fd" font-size="38" font-family="Segoe UI, Arial, sans-serif">OCEL Data and Graph Schema Pipeline</text>
+</svg>
