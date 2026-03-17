@@ -9,7 +9,8 @@
     <div class="projectRows">
         {% for project in site.projects %}
         {% if current_lang == 'de' %}
-        {% assign project_info = project.main_page_display_description_de | default: project.main_page_display_description | default: project.description_de | default: project.description %}
+        {% assign project_info = project.main_page_display_description_de | default:
+        project.main_page_display_description | default: project.description_de | default: project.description %}
         {% assign project_tile_description = project.description_de | default: project.description %}
         {% else %}
         {% assign project_info = project.main_page_display_description | default: project.description %}
