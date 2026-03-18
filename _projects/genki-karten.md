@@ -3,7 +3,7 @@ layout: post
 title: GenKI-Karten
 description: AI-assisted enhancement pipeline for Anki vocabulary decks.
 main_page_display_description: Enriches flashcards with generated usage examples, with a mock mode for safe testing and automated deck validation.
-main_page_display_description_de: Reichert Flashcards mit generierten Anwendungsbeispielen an, mit Mock-Modus fuer sicheres Testen und automatischer Deck-Validierung.
+main_page_display_description_de: Reichert Flashcards mit generierten Anwendungsbeispielen an, mit Mock-Modus für sicheres Testen und automatischer Deck-Validierung.
 tile_image: /assets/images/projects/flashcards.png
 ---
 

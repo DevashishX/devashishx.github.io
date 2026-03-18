@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Marketing Lead, Board Member, HR Volunteer
-title_de: Marketingleiter, Vorstandsmitglied, HR-Voluntaer
+title_de: Marketingleiter, Vorstandsmitglied, HR-Voluntär
 organization: TEDxRWTHAachen e.V.
 organization_de: TEDxRWTHAachen e.V.
 type: Volunteer Leadership
@@ -12,14 +12,14 @@ start_date: 2022-01-01
 end_date:
 tile_image: /assets/images/experience/tedx.png
 summary: Led growth and operations for a TEDx conference with 300+ attendees, combining strategy, analytics, and team leadership.
-summary_de: Leitung von Wachstum und Operations fuer eine TEDx-Konferenz mit ueber 300 Gaesten durch Strategie, Analytics und Teamfuehrung.
+summary_de: Leitung von Wachstum und Operations für eine TEDx-Konferenz mit über 300 Gästen durch Strategie, Analytics und Teamführung.
 content_de: |-
-  Verantwortung fuer Marketingmassnahmen einer TEDx-Konferenz mit ueber 300 Gaesten.
+  Verantwortung für Marketingmassnahmen einer TEDx-Konferenz mit über 300 Gästen.
 
   - Erfolgreiche Umsetzung der Marketingstrategie mit ausverkauften Tickets zwei Monate vor dem Event.
-  - Erreichen von ueber 20.000 Website-Aufrufen durch datengetriebene Social-Media-Kampagnen.
+  - Erreichen von über 20.000 Website-Aufrufen durch datengetriebene Social-Media-Kampagnen.
   - Teamleitung von sechs Volunteers im Marketingbereich.
-  - Vorstandsmitglied mit Verantwortung fuer Rechtliches, Recruiting und Jahresplanung fuer 35 Mitglieder.
+  - Vorstandsmitglied mit Verantwortung für Rechtliches, Recruiting und Jahresplanung für 35 Mitglieder.
 
   Relevante Skills: Data-driven Marketing, KPI Tracking, Team Leadership, Recruiting, Stakeholder Management, Agile Zusammenarbeit.
 ---

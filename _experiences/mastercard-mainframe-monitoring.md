@@ -12,9 +12,9 @@ start_date: 2019-05-01
 end_date: 2019-07-31
 tile_image: /assets/images/experience/mastercard.jpg
 summary: Built a configurable SQL monitoring and alerting tool for payment-verification workloads on C mainframe systems.
-summary_de: Implementierung eines konfigurierbaren SQL Monitoring- und Benachrichtigungstools fuer Payment-Verification-Workloads auf C-Mainframe-Systemen.
+summary_de: Implementierung eines konfigurierbaren SQL Monitoring- und Benachrichtigungstools für Payment-Verification-Workloads auf C-Mainframe-Systemen.
 content_de: |-
-  Implementierung eines konfigurierbaren SQL-Datenbank-Monitoring- und Benachrichtigungstools zur Vermeidung von Ausfallzeiten im C-Mainframe-System fuer Zahlungspruefung.
+  Implementierung eines konfigurierbaren SQL-Datenbank-Monitoring- und Benachrichtigungstools zur Vermeidung von Ausfallzeiten im C-Mainframe-System für Zahlungsprüfung.
 
   Relevante Skills: SQL, C, Datenbank Monitoring, Incident Prevention, Linux.
 ---

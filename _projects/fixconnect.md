@@ -3,7 +3,7 @@ layout: post
 title: FIXConnect
 description: Early UI scaffolding for trade order modify/cancel workflows in a FIX integration context.
 main_page_display_description: Prototype desktop forms for order lifecycle actions, generated with PAGE/Tkinter and prepared for backend request wiring.
-main_page_display_description_de: Prototypische Desktop-Formulare fuer Order-Lifecycle-Aktionen, mit PAGE/Tkinter erzeugt und fuer Backend-Request-Wiring vorbereitet.
+main_page_display_description_de: Prototypische Desktop-Formulare für Order-Lifecycle-Aktionen, mit PAGE/Tkinter erzeugt und für Backend-Request-Wiring vorbereitet.
 tile_image: /assets/images/projects/fix.png
 ---
 

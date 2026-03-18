@@ -16,9 +16,9 @@ summary_de: Mitentwicklung eines transformerbasierten NLP-Systems zur automatisc
 content_de: |-
   Mitentwicklung eines transformerbasierten Sprachverarbeitungssystems in TensorFlow zur automatischen E-Mail-Klassifizierung.
 
-  - Jaehrliche Kosteneinsparung von bis zu 80.000 Euro durch Deployment von Containern und Microservices auf AWS.
-  - Erstellung von mehr als 20 Testfaellen zur Qualitaetssicherung des Sprachmodells mit Python Unit Tests und scikit-learn.
-  - Durchfuehrung von CVE-Sicherheitsanalysen fuer Dependencies zur Reduzierung von Supply-Chain-Risiken.
+  - Jährliche Kosteneinsparung von bis zu 80.000 Euro durch Deployment von Containern und Microservices auf AWS.
+  - Erstellung von mehr als 20 Testfällen zur Qualitätssicherung des Sprachmodells mit Python Unit Tests und scikit-learn.
+  - Durchführung von CVE-Sicherheitsanalysen für Dependencies zur Reduzierung von Supply-Chain-Risiken.
   - Umsetzung von Linux-Prozessen, internen SQL-Datenbanken und Workflows mit Apache Airflow.
 
   Relevante Skills: NLP, Data Science, Python, TensorFlow, scikit-learn, SQL, AWS, Docker, Microservices, Linux, Apache Airflow, CVE Security Analysis.

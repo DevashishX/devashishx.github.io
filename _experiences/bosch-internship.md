@@ -12,14 +12,14 @@ start_date: 2022-11-01
 end_date: 2024-12-31
 tile_image: /assets/images/experience/bosch.jpg
 summary: Built and delivered embedded analysis tooling for customer-facing ADAS software, from requirements to production operations.
-summary_de: Entwicklung und Auslieferung von Embedded Analyse-Tooling fuer kundennahe ADAS Software, von Requirements bis Betrieb.
+summary_de: Entwicklung und Auslieferung von Embedded Analyse-Tooling für kundennahe ADAS Software, von Requirements bis Betrieb.
 content_de: |-
-  Entwicklung und Auslieferung eines Analyse-Tools fuer Embedded Fahrerassistenzsysteme auf ARM Plattformen an vier Kunden.
+  Entwicklung und Auslieferung eines Analyse-Tools für Embedded Fahrerassistenzsysteme auf ARM Plattformen an vier Kunden.
 
   - Reduzierung von Speicherlecks in zwei internen C++ Bibliotheken durch den produktiven Einsatz des Tools im Conan-, CMake- und Python-Buildsystem.
   - End-to-End-Verantwortung von Requirements Engineering, Design und Implementierung bis zu Wartung und Betrieb.
-  - Implementierung von 12 Referenzprojekten mit Qt GUI fuer Live-Demos bei Kunden und Wiederverwendung von C++ Middleware.
-  - Integration von Tooling und Requirement-Checks in GitHub Workflows und Confluence fuer alle Pull Requests.
+  - Implementierung von 12 Referenzprojekten mit Qt GUI für Live-Demos bei Kunden und Wiederverwendung von C++ Middleware.
+  - Integration von Tooling und Requirement-Checks in GitHub Workflows und Confluence für alle Pull Requests.
   - Mitarbeit in agilen Prozessen sowie in ISO-26262, ASPICE und JIRA-basiertem Tracking.
 
   Relevante Skills: Embedded Entwicklung, C++, Python, Qt, Conan, CMake, Git, GitHub Actions, Linux, QNX, Bash, JIRA, Confluence, Agile, ISO-26262, ASPICE.

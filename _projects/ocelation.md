@@ -3,7 +3,7 @@ layout: post
 title: ocelation
 description: Object-centric event log generation from relational schemas with graph analytics and LLM-assisted steps.
 main_page_display_description: Converts relational DDL into graph structures, detects communities, and derives merge/join sequences toward OCEL-style event representations.
-main_page_display_description_de: Wandelt relationale DDL in Graphstrukturen um, erkennt Communities und leitet Merge/Join-Sequenzen fuer OCEL-aehnliche Event-Repraesentationen ab.
+main_page_display_description_de: Wandelt relationale DDL in Graphstrukturen um, erkennt Communities und leitet Merge/Join-Sequenzen für OCEL-ähnliche Event-Repräsentationen ab.
 tile_image: /assets/images/projects/sql.png
 ---
 

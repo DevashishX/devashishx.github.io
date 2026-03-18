@@ -8,7 +8,7 @@ profile:
 published: true
 ---
 
-# Ueber Mich
+# über Mich
 
 Hallo, ich bin Dev, ML/AI Engineer in Aachen mit Fokus auf LLM-Systeme, Data Science und MLOps.
 
@@ -18,7 +18,10 @@ Ich arbeite an Process Mining, Anomalieerkennung und LLM-Automatisierung. Mit Te
 
 Zuvor war ich bei Robert Bosch und Societe Generale und habe Software end-to-end von Requirements bis Produktion geliefert. Ich suche Vollzeitrollen in Deutschland im Bereich ML/AI Software Engineering und MLOps.
 
-**[Schreib mir!](mailto:devashish.gaikwad@outlook.com)**
+<div style="display: flex; gap: 1rem; margin: 1.5rem 0; flex-wrap: wrap;">
+  <a href="mailto:devashish.gaikwad@outlook.com" style="display: inline-block; padding: 0.75rem 1.5rem; background-color: #004e89; color: white; text-decoration: none; border-radius: 4px; font-weight: bold; transition: background-color 0.3s;" onmouseover="this.style.backgroundColor='#003d6b'" onmouseout="this.style.backgroundColor='#004e89'">Schreib mir!</a>
+  <a href="{{ 'Lebenslauf_DevashishGaikwad.pdf' | relative_url }}" style="display: inline-block; padding: 0.75rem 1.5rem; background-color: #004e89; color: white; text-decoration: none; border-radius: 4px; font-weight: bold; transition: background-color 0.3s;" onmouseover="this.style.backgroundColor='#003d6b'" onmouseout="this.style.backgroundColor='#004e89'">Lebenslauf Herunterladen!</a>
+</div>
 
 # Erfahrung
 
