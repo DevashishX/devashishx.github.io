@@ -1,10 +1,10 @@
 ---
 layout: post
-title: AbstractClustering
+title: VectorCluster
 description: NLP pipeline for clustering research paper abstracts with multiple embedding and clustering strategies.
 main_page_display_description: A full experiment pipeline for preprocessing abstracts, generating embeddings, and clustering papers with classical and deep methods.
 main_page_display_description_de: Eine komplette Experiment-Pipeline zur Vorverarbeitung von Abstracts, Erzeugung von Embeddings und Clustering mit klassischen und Deep-Learning-Methoden.
-tile_image: /assets/images/projects/abstract-clustering.svg
+tile_image: /assets/images/projects/clustering.png
 ---
 
 [GitHub Repository](https://github.com/DevashishX/AbstractClustering){:target="_blank"}

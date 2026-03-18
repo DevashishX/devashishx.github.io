@@ -10,6 +10,7 @@ location: Abstatt, Germany
 location_de: Abstatt, Deutschland
 start_date: 2022-11-01
 end_date: 2024-12-31
+tile_image: /assets/images/experience/bosch.jpg
 summary: Built and delivered embedded analysis tooling for customer-facing ADAS software, from requirements to production operations.
 summary_de: Entwicklung und Auslieferung von Embedded Analyse-Tooling fuer kundennahe ADAS Software, von Requirements bis Betrieb.
 content_de: |-

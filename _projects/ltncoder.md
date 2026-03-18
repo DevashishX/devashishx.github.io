@@ -4,7 +4,7 @@ title: LTNcoder
 description: Neuro-symbolic process anomaly detection using logic constraints and deep learning.
 main_page_display_description: A research-oriented anomaly detection framework that combines Declare process rules with Logic Tensor Networks and neural models.
 main_page_display_description_de: Ein forschungsorientiertes Framework fuer Anomalieerkennung, das Declare-Regeln mit Logic Tensor Networks und neuronalen Modellen kombiniert.
-tile_image: /assets/images/projects/ltncoder.svg
+tile_image: /assets/images/projects/neurosymbolic.png
 ---
 
 [GitHub Repository](https://github.com/DevashishX/LTNcoder){:target="_blank"}

@@ -4,7 +4,7 @@ title: DNSGuard
 description: Local DNS filtering server to block ad and malicious domains using configurable blacklists.
 main_page_display_description: Runs a localhost DNS resolver proxy with runtime-reloadable blacklist matching and optional operational log archival scripts.
 main_page_display_description_de: Laeuft als localhost-DNS-Resolver-Proxy mit zur Laufzeit aktualisierbarer Blacklist und optionalen Skripten fuer Log-Archivierung.
-tile_image: /assets/images/projects/dnsguard.svg
+tile_image: /assets/images/projects/dns.png
 ---
 
 [GitHub Repository](https://github.com/DevashishX/DNSGuard){:target="_blank"}

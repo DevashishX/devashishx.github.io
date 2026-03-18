@@ -10,6 +10,7 @@ location: Aachen, Germany
 location_de: Aachen, Deutschland
 start_date: 2025-03-01
 end_date: 2026-03-31
+tile_image: /assets/images/experience/PADS.jpg
 summary: Improved anomaly detection in business process mining by up to 47% and built an LLM-assisted workflow that reduced manual work by 50%.
 summary_de: Verbesserung der Anomalieerkennung im Business Process Mining um bis zu 47 Prozent und Aufbau eines LLM-gestuetzten Workflows mit 50 Prozent weniger manueller Arbeit.
 content_de: |-

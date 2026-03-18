@@ -4,7 +4,7 @@ title: projectNMT
 description: Neural machine translation project for English to German/French with fairseq-based training and inference.
 main_page_display_description: A sequence-to-sequence translation stack with training, generation, and interactive inference scripts, plus service-style usage.
 main_page_display_description_de: Ein Sequence-to-Sequence-Uebersetzungs-Stack mit Training, Generierung und interaktiver Inferenz, inklusive serviceartiger Nutzung.
-tile_image: /assets/images/projects/project-nmt.svg
+tile_image: /assets/images/projects/translation.png
 ---
 
 [GitHub Repository](https://github.com/DevashishX/projectNMT){:target="_blank"}

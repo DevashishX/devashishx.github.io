@@ -1,11 +1,11 @@
 ### your site title here
 
 title: Devashish Gaikwad
-description: Real Time Systems | RWTH Aachen | C++, Python, Linux
+description: LLMs and Real Time Systems | Bosch, RWTH Aachen | C++, Python, Linux
 
 baseurl: "" #name of GitHub repository
 url: "devashish.de" #custom url to be used instead of GitHub repository
-email: ishay.gaikwad@gmail.com
+email: devashish.gaikwad@outlook.com
 
 # Pagination
 paginate: 4

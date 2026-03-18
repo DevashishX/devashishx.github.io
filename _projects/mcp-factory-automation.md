@@ -1,10 +1,10 @@
 ---
 layout: post
-title: MCPFactoryAutomation
+title: MCP Factory
 description: FastMCP orchestrator and RAG tooling for PCB assembly process automation.
 main_page_display_description: Dual MCP servers provide process orchestration and retrieval over PCB documentation, with both GUI and agent-ready interfaces.
 main_page_display_description_de: Zwei MCP-Server bieten Prozess-Orchestrierung und Dokumenten-Retrieval fuer PCB-Fertigung, mit GUI und agentenfaehigen Schnittstellen.
-tile_image: /assets/images/projects/mcp-factory-automation.svg
+tile_image: /assets/images/projects/mcp.png
 ---
 
 [GitHub Repository](https://github.com/DevashishX/MCPFactoryAutomation){:target="_blank"}

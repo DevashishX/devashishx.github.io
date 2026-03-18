@@ -10,6 +10,7 @@ location: Aachen, Germany
 location_de: Aachen, Deutschland
 start_date: 2022-01-01
 end_date:
+tile_image: /assets/images/experience/tedx.png
 summary: Led growth and operations for a TEDx conference with 300+ attendees, combining strategy, analytics, and team leadership.
 summary_de: Leitung von Wachstum und Operations fuer eine TEDx-Konferenz mit ueber 300 Gaesten durch Strategie, Analytics und Teamfuehrung.
 content_de: |-

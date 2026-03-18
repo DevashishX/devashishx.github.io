@@ -10,6 +10,7 @@ location: Pune, India
 location_de: Pune, Indien
 start_date: 2019-05-01
 end_date: 2019-07-31
+tile_image: /assets/images/experience/mastercard.jpg
 summary: Built a configurable SQL monitoring and alerting tool for payment-verification workloads on C mainframe systems.
 summary_de: Implementierung eines konfigurierbaren SQL Monitoring- und Benachrichtigungstools fuer Payment-Verification-Workloads auf C-Mainframe-Systemen.
 content_de: |-

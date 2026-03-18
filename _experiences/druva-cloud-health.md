@@ -10,6 +10,7 @@ location: Pune, India
 location_de: Pune, Indien
 start_date: 2018-05-01
 end_date: 2018-07-31
+tile_image: /assets/images/experience/druva.png
 summary: Developed a cloud health monitoring system for AWS servers using REST APIs in Go.
 summary_de: Implementierung eines Cloud-Health-Systems zur Zustandsueberwachung von AWS-Servern mit REST-APIs in Go.
 content_de: |-

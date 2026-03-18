@@ -4,7 +4,7 @@ title: devtext
 description: Terminal text editor in C using ncurses and a custom linked-list buffer model.
 main_page_display_description: A from-scratch TUI editor with file operations, navigation, search/replace, and clipboard-style editing behavior.
 main_page_display_description_de: Ein von Grund auf gebauter TUI-Editor mit Dateiverarbeitung, Navigation, Suchen/Ersetzen und Zwischenablage-aehnlichen Funktionen.
-tile_image: /assets/images/projects/devtext.svg
+tile_image: /assets/images/projects/terminal.jpg
 ---
 
 [GitHub Repository](https://github.com/DevashishX/devtext){:target="_blank"}

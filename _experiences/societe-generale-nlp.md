@@ -10,6 +10,7 @@ location: Bangalore, India
 location_de: Bangalore, Indien
 start_date: 2020-11-01
 end_date: 2021-07-31
+tile_image: /assets/images/experience/socgen.png
 summary: Co-developed a transformer-based NLP system for automated email classification and productionized it with AWS microservices.
 summary_de: Mitentwicklung eines transformerbasierten NLP-Systems zur automatischen E-Mail-Klassifizierung und produktiver Betrieb mit AWS Microservices.
 content_de: |-

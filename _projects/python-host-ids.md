@@ -4,7 +4,7 @@ title: PythonHostIDS
 description: Host-based intrusion detection with filesystem monitoring and email alerts.
 main_page_display_description: Watches files/folders for suspicious access or modification events and sends structured alert reports by email.
 main_page_display_description_de: Ueberwacht Dateien/Ordner auf verdaechtige Zugriffe oder Aenderungen und versendet strukturierte Alarmberichte per E-Mail.
-tile_image: /assets/images/projects/python-host-ids.svg
+tile_image: /assets/images/projects/IDS.PNG
 ---
 
 [GitHub Repository](https://github.com/DevashishX/PythonHostIDS){:target="_blank"}
